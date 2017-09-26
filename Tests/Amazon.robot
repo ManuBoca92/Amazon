@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation  This is a test suite of a logged out user trying to shop for products and checkout.
 Library  SeleniumLibrary
-Documentation  Amazon site test suite
 Resource  ../Resources/AmazonApp.robot
 Resource  ../Resources/Common.robot
 
