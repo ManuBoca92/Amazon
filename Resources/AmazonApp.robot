@@ -1,10 +1,10 @@
 *** Settings ***
-Library  SeleniumLibrary
-Resource    Resources/PO/LandingPage.robot
-Resource    Resources/PO/TopNav.robot
-Resource    Resources/PO/SearchResults.robot
-Resource    Resources/PO/Product.robot
-Resource    Resources/PO/CheckOut.robot
+#Library  SeleniumLibrary
+Resource    ../Resources/PO/LandingPage.robot
+Resource    ../Resources/PO/TopNav.robot
+Resource    ../Resources/PO/SearchResults.robot
+Resource    ../Resources/PO/Product.robot
+Resource    ../Resources/PO/CheckOut.robot
 
 *** Keywords ***
 
